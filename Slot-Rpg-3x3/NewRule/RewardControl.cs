@@ -155,4 +155,10 @@ namespace NewSlotMachine.NewRule
         public int idFirstItem;
         public int idMatch;
     }
+    public class RPGModel
+    {
+        public int DA;//damage 
+        public int DF;//def
+        public int HE;//heal
+    }
 }

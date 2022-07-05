@@ -31,7 +31,7 @@ namespace NewSlotMachine.NewRule
                 if (resultList[i].NumberFreeSpin > 0)
                 {
                     var result = resultList[i];
-                    Console.WriteLine("Total Avg  :" + resultList.Average(x => x.TotalDamage));
+                    Console.WriteLine("Total Avg  :" + resultList.Average(x => x.Total));
                 }
             }
         }
@@ -50,6 +50,7 @@ namespace NewSlotMachine.NewRule
         private ResultItem CheckResultMatrix(List<int> matrix)
         {
             List<PrizeLine> LineWin = new List<PrizeLine>();
+            int total = 0;
             int totalDamage = 0;
             int totalDef = 0;
             int totalHealth = 0;
@@ -80,11 +81,12 @@ namespace NewSlotMachine.NewRule
                     }
                 }
             }
+            RPGModel damage = new RPGModel() { DA = totalDamage, DF = totalDef, HE = totalHealth};
 
             string LineWinString = "";// Utils.GetStringLineId(LineWin);
-            string StringExtend = "";// JsonConvert.SerializeObject(new List<PosJumpWill>());
+            string StringExtend = JsonConvert.SerializeObject(damage);
             string ModelFreeString = "";// Utils.GetStringFreeResult(listModelFreeSpin);
-            return new ResultItem(Utils.GetStringMatrix(matrix), LineWinString, totalValueWinLine, totalValueBonus, totalNumFree, totalValueFreeSpin, totalDamage, totalDef, totalHealth, totalNumberJP, StringExtend, ModelFreeString);     
+            return new ResultItem(Utils.GetStringMatrix(matrix), LineWinString, totalValueWinLine, totalValueBonus, totalNumFree, totalValueFreeSpin, total, totalNumberJP, StringExtend, ModelFreeString);     
         }
 
     }

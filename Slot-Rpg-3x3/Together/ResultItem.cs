@@ -18,9 +18,7 @@ namespace NewSlotMachine.Together
         public long ValueBonus;
         public int NumberFreeSpin;
         public long ValueFreeSpin;
-        public long TotalDamage;
-        public long TotalDef;
-        public long TotalHealth;
+        public long Total;
         public int Jackpot;
         public string ModelFreeString;
         public string ExtendMatrixDescription;
@@ -29,7 +27,7 @@ namespace NewSlotMachine.Together
         //public string MatrixAfterJump;//co the bo buoc nay chuyen ma tran tren thanh ma tran cuoi
         //public List<PosJumpWill> PosJumpWill;
 
-        public ResultItem(string Matrix, string LineWinString, long ValueWinLine, long ValueBonus, int NumberFreeSpin, long ValueFreeSpin, long TotalDamage, long TotalDef, long TotalHealth, int Jackpot, string ExtendMatrixDescription, string ModelFreeString)
+        public ResultItem(string Matrix, string LineWinString, long ValueWinLine, long ValueBonus, int NumberFreeSpin, long ValueFreeSpin, long Total, int Jackpot, string ExtendMatrixDescription, string ModelFreeString)
         {
             this.Matrix = Matrix;
             this.LineWinString = LineWinString;
@@ -37,9 +35,7 @@ namespace NewSlotMachine.Together
             this.ValueBonus = ValueBonus;
             this.NumberFreeSpin = NumberFreeSpin;
             this.ValueFreeSpin = ValueFreeSpin;
-            this.TotalDamage = TotalDamage;
-            this.TotalDef = TotalDef;
-            this.TotalHealth = TotalHealth;
+            this.Total = Total;
             this.Jackpot = Jackpot;
             this.ExtendMatrixDescription = ExtendMatrixDescription;
             this.ModelFreeString = ModelFreeString;
@@ -47,7 +43,7 @@ namespace NewSlotMachine.Together
 
         public string GetString()
         {
-            string toString = this.Matrix + "-" + this.TotalDamage + "-" + this.TotalDef + "-" + this.TotalHealth + "-" + this.Jackpot + "-" + this.ExtendMatrixDescription + "-" + this.ModelFreeString;
+            string toString = this.Matrix + "-" + this.Jackpot + "-" + this.ExtendMatrixDescription + "-" + this.ModelFreeString;
             return toString;
         }
     }
