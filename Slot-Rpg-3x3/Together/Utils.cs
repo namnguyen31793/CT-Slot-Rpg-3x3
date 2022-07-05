@@ -13,7 +13,7 @@ namespace NewSlotMachine.Together
         public static int LENGTH_ID_ITEM_NORMAL = 3;
         //co 2 item hệ số
         public static int LENGTH_ID_ITEM_CALCULATION = 2;
-        public static int LENGTH_MATIRX = 3;
+        public static int LENGTH_MATIRX = 9;
         public static int NUM_COLUMN_MATRIX = 3;
         public static int NUMBER_LINE = 1;
 

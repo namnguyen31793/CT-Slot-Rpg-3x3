@@ -27,11 +27,15 @@ namespace NewSlotMachine.NewRule
             List<ModelCheckCount> listCountItem = new List<ModelCheckCount>();
 
             /*Check cac to hop an*/
-            for (int i = 1; i <= Utils.LENGTH_ID_ITEM_NORMAL; i++) {
+            for (int i = 1; i <= Utils.LENGTH_ID_ITEM_NORMAL; i++)
+            {
                 int idFirstItem = i;
                 int countItem = 0;
-                foreach (int id in matrix) {
-                    if (idFirstItem == id) {
+                //check hang giua
+                for (int j = 3; j < 6; j++)
+                {
+                    if (idFirstItem == matrix[j])
+                    {
                         countItem += 1;
                     }
                 }
