@@ -1,0 +1,11 @@
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\bin\Debug\NewSlotMachine.exe.config
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\obj\Debug\NewSlotMachine.exe
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\obj\Debug\NewSlotMachine.pdb
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\bin\Debug\NewSlotMachine.exe
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\bin\Debug\NewSlotMachine.pdb
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\bin\Debug\Newtonsoft.Json.dll
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\bin\Debug\Newtonsoft.Json.xml
+D:\CT\Slot-25line-NewTanSuu\Slot-25line-NewTanSuu\obj\Debug\Slot-25line-NewTanSuu.csprojResolveAssemblyReference.cache
+D:\CT\Slot-25line-NewTanSuuNew\Slot-25line-NewTanSuu\bin\Debug\NewSlotMachine.exe.config
+D:\CT\Slot-25line-NewTanSuuNew\Slot-25line-NewTanSuu\obj\Debug\NewSlotMachine.exe
+D:\CT\Slot-25line-NewTanSuuNew\Slot-25line-NewTanSuu\obj\Debug\NewSlotMachine.pdb

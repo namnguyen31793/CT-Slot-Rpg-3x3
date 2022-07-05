@@ -1,0 +1,16 @@
+D:\CT\Slot-25line-ST\Slot-25line-ST\bin\Debug\NewSlotMachine.exe.config
+D:\CT\Slot-25line-ST\Slot-25line-ST\obj\Debug\NewSlotMachine.exe
+D:\CT\Slot-25line-ST\Slot-25line-ST\obj\Debug\NewSlotMachine.pdb
+D:\CT\Slot-25line-ST\Slot-25line-ST\bin\Debug\NewSlotMachine.exe
+D:\CT\Slot-25line-ST\Slot-25line-ST\bin\Debug\NewSlotMachine.pdb
+D:\CT\Slot-25line-ST\Slot-25line-ST\obj\Debug\Slot-25line-ST.csprojResolveAssemblyReference.cache
+D:\CT\Slot-25line-ST\Slot-25line-ST\bin\Debug\Newtonsoft.Json.dll
+D:\CT\Slot-25line-ST\Slot-25line-ST\bin\Debug\Newtonsoft.Json.xml
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\bin\Debug\NewSlotMachine.exe.config
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\obj\Debug\NewSlotMachine.exe
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\obj\Debug\NewSlotMachine.pdb
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\bin\Debug\NewSlotMachine.exe
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\bin\Debug\NewSlotMachine.pdb
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\bin\Debug\Newtonsoft.Json.dll
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\bin\Debug\Newtonsoft.Json.xml
+D:\ProjectCa\Slot-25line-ST\Slot-25line-ST\obj\Debug\Slot-25line-ST.csprojResolveAssemblyReference.cache

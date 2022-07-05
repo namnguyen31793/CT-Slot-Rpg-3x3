@@ -1,0 +1,10 @@
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\bin\Debug\NewSlotMachine.exe.config
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\bin\Debug\NewSlotMachine.exe
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\bin\Debug\NewSlotMachine.pdb
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\bin\Debug\Newtonsoft.Json.dll
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\bin\Debug\Newtonsoft.Json.xml
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\obj\Debug\Slot-Rpg-3x3.csproj.AssemblyReference.cache
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\obj\Debug\Slot-Rpg-3x3.csproj.CoreCompileInputs.cache
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\obj\Debug\Slot-Rpg-3x3.csproj.CopyComplete
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\obj\Debug\NewSlotMachine.exe
+D:\CT\Slot-Rpg-3x3\Slot-Rpg-3x3\obj\Debug\NewSlotMachine.pdb

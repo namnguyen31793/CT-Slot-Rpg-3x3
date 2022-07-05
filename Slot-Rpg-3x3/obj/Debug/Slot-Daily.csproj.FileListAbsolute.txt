@@ -1,0 +1,8 @@
+D:\CT\Slot-Daily\Slot-Daily\bin\Debug\NewSlotMachine.exe.config
+D:\CT\Slot-Daily\Slot-Daily\obj\Debug\NewSlotMachine.exe
+D:\CT\Slot-Daily\Slot-Daily\obj\Debug\NewSlotMachine.pdb
+D:\CT\Slot-Daily\Slot-Daily\obj\Debug\Slot-Daily.csprojResolveAssemblyReference.cache
+D:\CT\Slot-Daily\Slot-Daily\bin\Debug\NewSlotMachine.exe
+D:\CT\Slot-Daily\Slot-Daily\bin\Debug\NewSlotMachine.pdb
+D:\CT\Slot-Daily\Slot-Daily\bin\Debug\Newtonsoft.Json.dll
+D:\CT\Slot-Daily\Slot-Daily\bin\Debug\Newtonsoft.Json.xml
