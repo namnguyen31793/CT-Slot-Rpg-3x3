@@ -17,8 +17,11 @@ namespace NewSlotMachine.NewRule
         //will thay the cac item tru ca item dac biet jackpot, bonus, free
 
         static int[] reward_ID_Damage = { 10, 25, 50 };
-        static int[] reward_ID_Def = { 5, 12, 25 };
-        static int[] reward_ID_Heal = { 3, 8, 15 };
+        static int[] reward_ID_Def = { 6, 15, 30 };
+        static int[] reward_ID_Heal = { 6, 15, 30 };
+        static int[] reward_ID_Damage_Small = { 5, 10, 20 };
+        static int[] reward_ID_Def_Small = { 3, 6, 12 };
+        static int[] reward_ID_Heal_Small = { 3, 6, 12 };
 
         public static List<PrizeLine> GetLineReward(List<int> matrix, out List<RewardModel> listTypeResult)
         {
@@ -49,15 +52,15 @@ namespace NewSlotMachine.NewRule
                     int multiValue = GetMuitlValue(listCountItem[i].id, listCountItem[i].count);
                     List<int> Items = listCountItem[i].Items;
 
-                    if (listCountItem[i].id == Utils.ID_ITEM_DAMAGE)
+                    if (listCountItem[i].id == Utils.ID_ITEM_DAMAGE || listCountItem[i].id == Utils.ID_ITEM_DAMAGE_SMALL)
                     {
                         listTypeResult.Add(new RewardModel(TYPE_RESULT.DAMAGE, multiValue));
                     }
-                    if (listCountItem[i].id == Utils.ID_ITEM_DEF)
+                    if (listCountItem[i].id == Utils.ID_ITEM_DEF || listCountItem[i].id == Utils.ID_ITEM_DEF_SMALL)
                     {
                         listTypeResult.Add(new RewardModel(TYPE_RESULT.DEF, multiValue));
                     }
-                    if (listCountItem[i].id == Utils.ID_ITEM_HEALTH)
+                    if (listCountItem[i].id == Utils.ID_ITEM_HEALTH || listCountItem[i].id == Utils.ID_ITEM_HEALTH_SMALL)
                     {
                         listTypeResult.Add(new RewardModel(TYPE_RESULT.HEAL, multiValue));
                     }
@@ -133,11 +136,17 @@ namespace NewSlotMachine.NewRule
             switch (idItemCheck)
             {
                 case 1:
-                    return reward_ID_Damage[count-1];
+                    return reward_ID_Damage[count - 1];
                 case 2:
-                    return reward_ID_Def[count-1];
+                    return reward_ID_Def[count - 1];
                 case 3:
-                    return reward_ID_Heal[count-1];
+                    return reward_ID_Heal[count - 1];
+                case 4:
+                    return reward_ID_Damage_Small[count - 1];
+                case 5:
+                    return reward_ID_Def_Small[count - 1];
+                case 6:
+                    return reward_ID_Heal_Small[count - 1];
                 default:
                     return 0;
             }

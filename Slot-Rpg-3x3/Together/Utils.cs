@@ -10,7 +10,7 @@ namespace NewSlotMachine.Together
     public class Utils
     {
         //co 3 item
-        public static int LENGTH_ID_ITEM_NORMAL = 3;
+        public static int LENGTH_ID_ITEM_NORMAL = 6;
         //co 2 item hệ số
         public static int LENGTH_ID_ITEM_CALCULATION = 2;
         public static int LENGTH_MATIRX = 9;
@@ -21,6 +21,9 @@ namespace NewSlotMachine.Together
         public static int ID_ITEM_DAMAGE = 1;
         public static int ID_ITEM_DEF = 2;
         public static int ID_ITEM_HEALTH = 3;
+        public static int ID_ITEM_DAMAGE_SMALL = 4;
+        public static int ID_ITEM_DEF_SMALL = 5;
+        public static int ID_ITEM_HEALTH_SMALL = 6;
 
 
         public static string GetStringMatrix(List<int> matrix) {
