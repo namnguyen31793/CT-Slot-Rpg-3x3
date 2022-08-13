@@ -51,18 +51,26 @@ namespace NewSlotMachine.NewRule
                 {
                     int multiValue = GetMuitlValue(listCountItem[i].id, listCountItem[i].count);
                     List<int> Items = listCountItem[i].Items;
+                    int point = 0;
+                    if (listCountItem[i].id <= 3)
+                    {
+                        point = 2;
+                    }
+                    else {
+                        point = 1;
+                    }
 
                     if (listCountItem[i].id == Utils.ID_ITEM_DAMAGE || listCountItem[i].id == Utils.ID_ITEM_DAMAGE_SMALL)
                     {
-                        listTypeResult.Add(new RewardModel(TYPE_RESULT.DAMAGE, multiValue));
+                        listTypeResult.Add(new RewardModel(TYPE_RESULT.DAMAGE, multiValue, point));
                     }
                     if (listCountItem[i].id == Utils.ID_ITEM_DEF || listCountItem[i].id == Utils.ID_ITEM_DEF_SMALL)
                     {
-                        listTypeResult.Add(new RewardModel(TYPE_RESULT.DEF, multiValue));
+                        listTypeResult.Add(new RewardModel(TYPE_RESULT.DEF, multiValue, point));
                     }
                     if (listCountItem[i].id == Utils.ID_ITEM_HEALTH || listCountItem[i].id == Utils.ID_ITEM_HEALTH_SMALL)
                     {
-                        listTypeResult.Add(new RewardModel(TYPE_RESULT.HEAL, multiValue));
+                        listTypeResult.Add(new RewardModel(TYPE_RESULT.HEAL, multiValue, point));
                     }
                     listModel.Add(new PrizeLine(0, multiValue, Items));
                 }
@@ -169,5 +177,8 @@ namespace NewSlotMachine.NewRule
         public int DA;//damage 
         public int DF;//def
         public int HE;//heal
+        public int PDA;//point damage 
+        public int PDF;//point def
+        public int PHE;//point heal
     }
 }

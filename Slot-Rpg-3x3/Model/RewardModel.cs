@@ -10,10 +10,12 @@ namespace NewSlotMachine.Model
     {
         public TYPE_RESULT type;
         public int multiValue;
+        public int point;
 
-        public RewardModel(TYPE_RESULT type, int multiValue) {
+        public RewardModel(TYPE_RESULT type, int multiValue, int point = 0) {
             this.type = type;
             this.multiValue = multiValue;
+            this.point = point;
         }
     }
 

@@ -54,6 +54,9 @@ namespace NewSlotMachine.NewRule
             int totalDamage = 0;
             int totalDef = 0;
             int totalHealth = 0;
+            int totalPointDamage = 0;
+            int totalPointDef = 0;
+            int totalPointHealth = 0;
             int totalValueWinLine = 0;
             long totalValueBonus = 0;
             int totalNumFree = 0;
@@ -73,15 +76,20 @@ namespace NewSlotMachine.NewRule
                             
                         }else if (result.type == TYPE_RESULT.HEAL) {
                             totalHealth += result.multiValue;
-                        }else if (result.type == TYPE_RESULT.DEF) {
+                            totalPointHealth += result.point;
+                        }
+                        else if (result.type == TYPE_RESULT.DEF) {
                             totalDef += result.multiValue;
-                        }else if (result.type == TYPE_RESULT.DAMAGE) {
+                            totalPointDef += result.point;
+                        }
+                        else if (result.type == TYPE_RESULT.DAMAGE) {
                             totalDamage += result.multiValue;
+                            totalPointDamage += result.point;
                         }
                     }
                 }
             }
-            RPGModel damage = new RPGModel() { DA = totalDamage, DF = totalDef, HE = totalHealth};
+            RPGModel damage = new RPGModel() { DA = totalDamage, DF = totalDef, HE = totalHealth, PDA = totalPointDamage, PDF = totalPointDef, PHE = totalPointHealth };
 
             string LineWinString = "";// Utils.GetStringLineId(LineWin);
             string StringExtend = JsonConvert.SerializeObject(damage);
